@@ -1,0 +1,58 @@
+
+body{
+    background-color: black;
+
+    height: 100vh;
+
+}
+
+.container {
+
+    position: relative;
+    text-align: center;
+    
+    
+
+}
+
+h1{
+    color: white;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.game-cell {
+
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 0 1px #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    animation: rgb 2s infinite;
+
+
+}
+h2{
+    color: white;
+}
+
+
+@keyframes rgb {
+    0%{
+        border: 1px solid #0432ff;
+    }
+    50%{
+        border: 1px solid #ff0000;
+    }
+    100%{
+        border: 1px solid #ff00f2;
+
+    }
+}
